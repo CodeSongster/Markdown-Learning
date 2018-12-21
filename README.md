@@ -120,12 +120,12 @@ int main() {
 ```markdown
 ![panda](resource/panda.jpg)
 ```
-![](resource/panda.jpg)
+![panda](resource/panda.jpg)
 #### absolute path
 ```markdown
-![alt](https://www.zhuangbi.info/beta/pictures/3804)
+![alt](https://github.com/CodeSongster/Markdown-Grammar/blob/master/resource/panda.jpg)
 ```
-![](https://www.zhuangbi.info/beta/pictures/3804)
+![alt](https://github.com/CodeSongster/Markdown-Grammar/blob/master/resource/panda.jpg)
 <!-- tag -->
 ## tag
 ```markdown
