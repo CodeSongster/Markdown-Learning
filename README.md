@@ -1,7 +1,30 @@
-# Markdown-Grammar
-Markdown is a mark language and is useful in writing blogs or documents. This repository show markdown grammar to learn and use it quickly.
-
+# Markdown-Learning
+Markdown is a mark language and is useful in writing blogs or documents. This repository show markdown ide and grammar to learn and use it quickly.
 # Getting started
+- [Markdown IDE](#markdown-ide)
+- [Markdown Grammar](#markdown-grammar)
+# Markdown IDE
+Build the best developing environment of markdown in just two steps!
+1. [Install atom](#install-atom)
+2. [Install plugins](#install-plugins)
+## Install atom
+download install package from https://atom.io/
+> suggest to download from https://github.com/atom/atom/tags so that you can decide the setup location
+
+then install happily
+## Install plugins
+press `ctrl+,` to open the settings tab
+![install](resource/install.png)
+
+search and install following packages
+`language-markdown`  
+`markdown-writer`  
+`markdown-preview-enhanced`
+
+Well, enjoy writing markdown code with a preview window!
+![preview](resource/preview.png)
+
+# Markdown Grammar
 ## index
 > [title](#title)  
 > [blockquote](#blockquote)  
@@ -30,7 +53,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 ##### title5
 ###### title6
 <!-- blockquote -->
-### blockquote
+## blockquote
 ```markdown
 > blockquote1
 >> blockquote2
