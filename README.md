@@ -10,6 +10,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 > [list](#list)  
 > [split line](#split-line)  
 > [link](#link)  
+> [image](#image)  
 > [tag](#tag)  
 > [table](#table)  
 <!-- title -->
@@ -113,6 +114,18 @@ int main() {
 [personal blog](http://www.liyupi.top)
 ```
 [personal blog](http://www.liyupi.top)
+<!-- image -->
+## image
+#### relative path
+```markdown
+![panda](resource/panda.jpg)
+```
+![](resource/panda.jpg)
+#### absolute path
+```markdown
+![alt](https://www.zhuangbi.info/beta/pictures/3804)
+```
+![](https://www.zhuangbi.info/beta/pictures/3804)
 <!-- tag -->
 ## tag
 ```markdown
