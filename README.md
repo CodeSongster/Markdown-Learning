@@ -3,15 +3,15 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 
 # Getting started
 ## index
-> [title](#title)
-> [blockquote](#blockquote)
-> [font style](#font-style)
-> [code](#code)
-> [list](#list)
-> [split line](#split-line)
-> [link](#link)
-> [tag](#tag)
-> [table](#table)
+> [title](#title)  
+> [blockquote](#blockquote)  
+> [font style](#font-style)  
+> [code](#code)  
+> [list](#list)  
+> [split line](#split-line)  
+> [link](#link)  
+> [tag](#tag)  
+> [table](#table)  
 <!-- title -->
 ## title
 ```markdown
@@ -71,8 +71,8 @@ int main() {
 **bold font**
 ~~delete font~~
 ```
-*italic font*   
-**bold font**
+*italic font*  
+**bold font**  
 ~~delete font~~
 <!-- list -->
 ## list
