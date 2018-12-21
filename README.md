@@ -14,9 +14,8 @@ download install package from https://atom.io/
 then install happily
 ## Install plugins
 press `ctrl+,` to open the settings tab
-![install](resource/install.png)
 
-search and install following packages
+search and install following packages  
 `language-markdown`  
 `markdown-writer`  
 `markdown-preview-enhanced`
