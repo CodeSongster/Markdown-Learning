@@ -2,7 +2,7 @@
 Markdown is a mark language and is useful in writing blogs or documents. This repository show markdown grammar to learn and use it quickly.
 
 # Getting started
-### index
+## index
 >#### [title](#title)
 >#### [blockquote](#blockquote)
 >#### [font style](#font-style)
@@ -13,7 +13,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 >#### [tag](#tag)
 >#### [table](#table)
 <!-- title -->
-### title
+## title
 ```markdown
 # title1
 ## title2
@@ -39,7 +39,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 >> blockquote2
 >>> blockquote3
 <!-- code -->
-### code
+## code
 #### use ```
     ```[c|java|html|python...]
         <!-- code -->
@@ -65,15 +65,17 @@ int main() {
 }
 ```
 <!-- font style -->
-### font style
+## font style
 ```markdown
 *italic font* 
 **bold font**
+~~delete font~~
 ```
 *italic font*   
 **bold font**
+~~delete font~~
 <!-- list -->
-### list
+## list
 #### unordered list
 ```Markdown
 - first
@@ -93,13 +95,13 @@ int main() {
 2. second
 3. third
 <!-- split line -->
-### split line
+## split line
 ```markdown
 ---
 ```
 ---
 <!-- link -->
-### link
+## link
 #### anchor
 ```markdown
 [back to top ↑](#markdown-grammar)
@@ -112,13 +114,13 @@ int main() {
 ```
 [personal blog](http://www.liyupi.top)
 <!-- tag -->
-### tag
+## tag
 ```markdown
 `ctrl+a` `ctrl+d`
 ```
 `ctrl+a` `ctrl+d`
 <!-- table -->
-### table
+## table
 #### align
 left `|:---|`
 right `|---:|`
