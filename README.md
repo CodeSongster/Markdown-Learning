@@ -21,7 +21,6 @@ search and install following packages
 `markdown-preview-enhanced`
 
 Well, enjoy writing markdown code with a preview window!
-![preview](resource/preview.png)
 
 # Markdown Grammar
 ## index
