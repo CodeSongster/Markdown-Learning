@@ -40,19 +40,28 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 >>> blockquote3
 <!-- code -->
 ### code
-```markdown
+#### use ```
     ```[c|java|html|python...]
         <!-- code -->
     ```
-```
-```c
-int main() {
-    println("c code")
-}
-```
+such as java code
+
 ```java
 public static void main(String[] args) {
     System.out.println("java code");
+}
+```
+#### use indent
+you can use tab of four whitespace before every line of code
+```markdown
+    int main() {
+        println("c code")
+    }
+```
+result
+```c
+int main() {
+    println("c code")
 }
 ```
 <!-- font style -->
