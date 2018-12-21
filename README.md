@@ -13,7 +13,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 >#### [tag](#tag)
 >#### [table](#table)
 <!-- title -->
-### title {#title}
+### title
 ```markdown
 # title1
 ## title2
@@ -29,7 +29,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 ##### title5
 ###### title6
 <!-- blockquote -->
-### blockquote {#blockquote}
+### blockquote
 ```markdown
 > blockquote1
 >> blockquote2
@@ -39,7 +39,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 >> blockquote2
 >>> blockquote3
 <!-- code -->
-### code {#code}
+### code
 ```markdown
     ```[c|java|html|python...]
         <!-- code -->
@@ -56,7 +56,7 @@ public static void main(String[] args) {
 }
 ```
 <!-- font style -->
-### font style {#font style}
+### font style
 ```markdown
 *italic font* 
 **bold font**
@@ -64,7 +64,7 @@ public static void main(String[] args) {
 *italic font* 
 **bold font**
 <!-- list -->
-### list {#list}
+### list
 #### unordered list
 ```Markdown
 - first
@@ -84,37 +84,32 @@ public static void main(String[] args) {
 2. second
 3. third
 <!-- split line -->
-### split line {#split line}
+### split line
 ```markdown
 ---
 ```
 ---
 <!-- link -->
-### link {#link}
+### link
 #### anchor
-create anchor
 ```markdown
-##### my anchor {#my anchor}
+[back to top ↑](#markdown-grammar)
 ```
-##### my anchor {#my anchor}
-```markdown
-[to my anchor](#my-anchor)
-```
-[to my anchor](#my-anchor)
-> ! Link target must not contain  whitespace or uppercase character, use '-' instead of whitespace and lowercase.
+[back to top ↑](#markdown-grammar)
+> ! link target must be lowercase and contains no whitespace
 #### external
 ```markdown
 [personal blog](http://www.liyupi.top)
 ```
 [personal blog](http://www.liyupi.top)
 <!-- tag -->
-### tag {#tag}
+### tag
 ```markdown
 `ctrl+a` `ctrl+d`
 ```
 `ctrl+a` `ctrl+d`
 <!-- table -->
-### table {#table}
+### table
 #### align
 left `|:---|`
 right `|---:|`
