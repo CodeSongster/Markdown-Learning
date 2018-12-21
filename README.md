@@ -61,7 +61,7 @@ public static void main(String[] args) {
 *italic font* 
 **bold font**
 ```
-*italic font* 
+*italic font*   
 **bold font**
 <!-- list -->
 ### list
