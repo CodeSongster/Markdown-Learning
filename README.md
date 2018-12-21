@@ -3,57 +3,119 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 
 # Getting started
 ### index
->#### 1. title
->#### 2. blockquote
->#### 3. font style
->#### 4. list
->#### 5. link
->#### 6. tag
->#### 7. table
-<!-- title type1 -->
+>#### title
+>#### blockquote
+>#### font style
+>#### code
+>#### list
+>#### split line
+>#### link
+>#### tag
+>#### table
+<!-- title -->
+### title
+```markdown
 # title1
 ## title2
 ### title3
 #### title4
 ##### title5
 ###### title6
-<!-- title type2 -->
-title1
-==
-title2
---
+```
+# title1
+## title2
+### title3
+#### title4
+##### title5
+###### title6
 <!-- blockquote -->
+### blockquote
+```markdown
+> blockquote1
+>> blockquote2
+>>> blockquote3
+```
 > blockquote1
 >> blockquote2
 >>> blockquote3
 <!-- code -->
+### code
+```markdown
+    ```[c|java|html|python...]
+        <!-- code -->
+    ```
+```
+```c
+int main() {
+    println("c code")
+}
+```
 ```java
 public static void main(String[] args) {
     System.out.println("java code");
 }
 ```
 <!-- font style -->
-*italic font*  
+### font style
+```markdown
+*italic font* 
+**bold font**
+```
+*italic font* 
 **bold font**
 <!-- list -->
-> list
->- first
->- second
->- third
-
-> order list
->1. first
->2. second
->3. third
+### list
+#### unordered list
+```Markdown
+- first
+- second
+- third
+```
+- first
+- second
+- third
+#### ordered list
+```markdown
+1. first
+2. second
+3. third
+```
+1. first
+2. second
+3. third
 <!-- split line -->
+### split line
+```markdown
+---
+```
 ---
 <!-- link -->
+### link
+```markdown
+[personal blog](http://www.liyupi.top)
+```
 [personal blog](http://www.liyupi.top)
 <!-- tag -->
+### tag
+```markdown
+`ctrl+a` `ctrl+d`
+```
 `ctrl+a` `ctrl+d`
 <!-- table -->
-| name  | age | gender    | money  |
-|-------|:---:|-----------|-------:|
-| rhio  | 384 | robot     | $3,000 |
-| haroo | .3  | bird      | $430   |
-| jedi  | ?   | undefined | $0     |
+### table
+#### align
+left `|:---|`
+right `|---:|`
+center  `|:--:|`  
+```markdown
+| name  | age | sex | salary |
+|-------|:---:|-----|-------:|
+| wang  | 30  | m   | $1,000 |
+| ming  | 20  | f   | $2,000 |
+| candy | 10  | f   | $0     |
+```
+| name  | age | sex | salary |
+|-------|:---:|-----|-------:|
+| wang  | 30  | m   | $1,000 |
+| ming  | 20  | f   | $2,000 |
+| candy | 10  | f   | $0     |
