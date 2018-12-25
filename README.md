@@ -3,6 +3,7 @@ Markdown is a mark language and is useful in writing blogs or documents. This re
 # Getting started
 - [Markdown IDE](#markdown-ide)
 - [Markdown Grammar](#markdown-grammar)
+- [Export Markdown](#export_markdown)
 # Markdown IDE
 Build the best developing environment of markdown in just two steps!
 1. [Install atom](#install-atom)
@@ -171,5 +172,12 @@ center  `|:--:|`
 | wang  | 30  | m   | $1,000 |
 | ming  | 20  | f   | $2,000 |
 | candy | 10  | f   | $0     |
+
+# Export Markdown
+Well, you can export your markdown file (like .md) to other file format (like .docx, .pdf, .html) easily by using an atom plugin called [pandoc-convert](https://github.com/josa42/atom-pandoc-convert).
+
+![pandoc-convert](resource/pandoc-convert.png)
+
+Use hotkey `ctrl+shift+p` and search "pandoc convert" to generate a target file.
 <!-- back to top -->
-[back to top ↑](#markdown-grammar)
+[back to top ↑](#markdown-learning)
